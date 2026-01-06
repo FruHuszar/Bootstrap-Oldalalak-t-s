@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap gyakorlas | 2026 Január 06</title>
+    <meta
+      name="description"
+      content="Bootstrap gyakorló feladat, oldalalakítás, carousel használata"
+    />
+    <meta
+      name="keywords"
+      content="Bootstrap, Carousel, szoftverfejlesztés, webszerkesztés, webfejlesztés"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="sajat.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <main class="row bg-light">
+        <header class="col-12">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="3"
+                aria-label="Slide 4"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="kepek/DSC3848.jpg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="kepek/DSC4503-2.jpeg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img src="kepek/DSC4601.jpeg" class="d-block w-100" alt="..." />
+              </div>
+              <div class="carousel-item">
+                <img src="kepek/DSC3751.jpeg" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </header>
+        <nav class="col-12 bg-primary p-4">
+          <ul class="nav justify-content-start">
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light p-2">Vadálló Kövek</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light p-2">Tisza-tó</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light p-2">Beliczay-sziget</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-light p-2">Burok-völgy</a>
+            </li>
+          </ul>
+        </nav>
+        <aside class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item text-primary p-3">Vadálló Kövek</li>
+            <li class="list-group-item text-primary p-3">Tisza-tó</li>
+            <li class="list-group-item text-primary p-3">Beliczay-sziget</li>
+            <li class="list-group-item text-primary p-3">Burok-völgy</li>
+          </ul>
+        </aside>
+        <article class="col-9">
+          <div class="table-responsive-xl">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th class="p-3">Kirándulás helye</th>
+                  <th class="p-3">Megtett táv</th>
+                  <th class="p-3">típus</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="p-3">Vadálló Kövek</td>
+                  <td class="p-3">25 km</td>
+                  <td class="p-3">gyalogtúra</td>
+                </tr>
+                <tr>
+                  <td class="p-3">Tisza-tó</td>
+                  <td class="p-3">75 km</td>
+                  <td class="p-3">kerékpár</td>
+                </tr>
+                <tr>
+                  <td class="p-3">Beliczay-sziget</td>
+                  <td class="p-3">10 km</td>
+                  <td class="p-3">gyalogtúra</td>
+                </tr>
+                <tr>
+                  <td class="p-3">Burok-völgy</td>
+                  <td class="p-3">15 km</td>
+                  <td class="p-3">gyalogtúra</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <img
+                src="kepek/DSC4503-2.jpeg"
+                class="img-thumbnail img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="kepek/DSC4641.jpeg"
+                class="img-thumbnail img-fluid"
+                alt="..."
+              />
+            </div>
+            <div class="col-sm-4">
+              <img
+                src="kepek/DSC3751.jpeg"
+                class="img-thumbnail img-fluid"
+                alt="..."
+              />
+            </div>
+          </div>
+        </article>
+        <footer class="col-12">
+          <div class="d-flex align-items-center border border-2">
+            <div class="flex-shrink-0">
+              <img
+                src="kepek/DSC4637.jpeg"
+                width="150px"
+                class="border border-3 rounded-circle"
+                alt="..."
+              />
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <p class="fw-light fst-italic">
+                <span class="display-6 fw-normal fst-normal">Dézi</span> Esőben
+                nem szeret fotózni.
+              </p>
+              <p>
+                Hősiesen és csurom vizesen tűrte, amíg minden gombát
+                lefotóztunk.
+              </p>
+            </div>
+          </div>
+          <div class="d-flex align-items-center border border-2">
+            <div class="flex-shrink-0">
+              <img
+                src="kepek/DSC4655.jpeg"
+                width="150px"
+                class="border border-3 rounded-circle"
+                alt="..."
+              />
+            </div>
+            <div class="flex-grow-1 ms-3">
+              <p class="fw-light fst-italic">
+                <span class="display-6 fw-normal fst-normal">Sári</span> Nagyon
+                várta már, hogy hazamenjünk.
+              </p>
+              <p>
+                Kis pofácskáját mindenbe beledugta, amibe nem kellett volna.
+              </p>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
