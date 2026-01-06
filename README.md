@@ -35,6 +35,7 @@ Használt osztályok:
   <aside class="col-3"></aside>
   <article class="col-9"></article>
 </div>
+```
 - Így két oszlopunk lesz 3:9 arányban
 
 ### 2. Carousel (képváltó fejléc)
@@ -54,6 +55,7 @@ Használt elemek:
   max-height: 500px;
   object-fit: cover;
 }
+```
 - saját css-el módosítható minden elem ugyanúgy mint sima css használatánál.
 
 ### 3. Navigációs sáv (nav)
@@ -76,6 +78,7 @@ Használt osztályok:
     </li>
   </ul>
 </nav>
+```
 - Ez automatikusan eltűnteti az aláhúzást, és horizontális menüt ad
 
 ### 4. Oldalsáv – Listák (list-group)
@@ -92,6 +95,7 @@ Használt osztályok:
 <ul class="list-group">
   <li class="list-group-item text-primary">Elem</li>
 </ul>
+```
 - Szebb formázást ad, és eltűnteti a pontokat
 
 ### 5. Táblázat (table)
@@ -108,6 +112,7 @@ Használt osztályok:
 <div class="table-responsive-xl">
   <table class="table table-striped"></table>
 </div>
+```
 -Ez csíkos reszponzív táblázatot ad.
 
 ### 6. Képek kezelése
@@ -121,6 +126,7 @@ Bootstrap képosztályok használata:
 - Példa HTML képre:
 ```html
 <img src="kep.jpg" class="img-fluid img-thumbnail" alt="">
+```
 - Reszponzív képek, lekerekítés, alap border
 
 ### 7. Flexbox (footer szakasz)
@@ -140,6 +146,7 @@ Használt osztályok:
   <div class="flex-shrink-0"></div>
   <div class="flex-grow-1 ms-3"></div>
 </div>
+```
 - Egymás mellé helyezés, stb.
 
 ### 8. Színek és tipográfia
@@ -160,5 +167,6 @@ Bootstrap segédosztályok használata.
 - Példa HTML szövegre:
 ```html
 <p class="fw-light fst-italic text-primary">Szöveg</p>
+```
 - Ezek előre meghatározott osztályok, különböző hatásokkal. primary például kék. 
 
